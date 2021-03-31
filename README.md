@@ -59,7 +59,12 @@ Clone repository from github to your local drive by following these steps:
 - Install Atom or Microsoft Visual Studio text editor to view the code on your local machine.
 - Install Git.
 
-## Running the game
+### Conduct Code Test
+- Prerequest Rspec gem instaled `gem install rspec`
+- To execute rspec test for Player class `rspec spec/player_test.rb`
+- To execute rspec test for Board class `rspec spec/Board_test.rb`
+
+### Running the game
 - Open your terminal
 - Navigate to project directory
 - Enter `./bin/main.rb` in your terminal and press Enter.
